@@ -3,11 +3,14 @@
     box-sizing: border-box;
 }
 
+
+
 body {
     height: 100vh;
     width: 80vw;
     margin: 0 auto;
     font-size: 1em;
+
 }
 
 header {
@@ -44,11 +47,27 @@ h1 {
 input[type="number"] {
     width: 80%;
     padding-left: 1ch;
+    border: 1px solid black;
 }
 
 span {
-    margin: 0.5em;
-    font-size: 1.2em;
+    margin: 0.6em;
+    font-size: 1.3em;
 }
+
+@media screen and (max-width: 621px) {
+
+    header {
+        height: 15%;
+    }
+
+    h1 {
+       font-size: 1.6em;
+       letter-spacing: 0.5ch;
+    }
+
+}
+
+
 
 
